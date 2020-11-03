@@ -13,10 +13,13 @@ https://fontawesome.com/icons?d=gallery then you will see information for a trul
 
 POSSIBLE UPCOMING ADDITIONS:
 
-Add a room tracking feature to let the user know if a room is full when registering a patient into the system.
-Doctors will be able to schedule certain tests/labs to be ran on a patient.
-Add the ability to view a doctors expected schedule throughout the day, to make planning easier.
-Create a smaller inventory management system so I could add a medicine store to this application.
-Closing remarks/thoughts: This was a really fun project for me, and it helped me knock some rust off since graduating college. 
+- Add a room tracking feature to let the user know if a room is full when registering a patient into the system.
+- Doctors will be able to schedule certain tests/labs to be ran on a patient.
+- Add the ability to view a doctors expected schedule throughout the day, to make planning easier.
+- Create a smaller inventory management system so I could add a medicine store to this application.
+
+Closing remarks/thoughts: 
+
+This was a really fun project for me, and it helped me knock some rust off since graduating college. 
 One of my biggest challenges was deciding on a user interface that looks modern and practical. I feel with enough practice, I will get better at designing user interfaces.
 But for now this is what I have and I feel proud of it.
