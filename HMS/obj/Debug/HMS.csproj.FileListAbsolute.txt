@@ -1,0 +1,17 @@
+C:\Users\schester\Documents\VisualStudio2019\Projects\HMS\HMS\bin\Debug\HMS.exe.config
+C:\Users\schester\Documents\VisualStudio2019\Projects\HMS\HMS\bin\Debug\HMS.exe
+C:\Users\schester\Documents\VisualStudio2019\Projects\HMS\HMS\bin\Debug\HMS.pdb
+C:\Users\schester\Documents\VisualStudio2019\Projects\HMS\HMS\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\schester\Documents\VisualStudio2019\Projects\HMS\HMS\obj\Debug\HMS.csprojAssemblyReference.cache
+C:\Users\schester\Documents\VisualStudio2019\Projects\HMS\HMS\obj\Debug\HMS.Login.resources
+C:\Users\schester\Documents\VisualStudio2019\Projects\HMS\HMS\obj\Debug\HMS.Properties.Resources.resources
+C:\Users\schester\Documents\VisualStudio2019\Projects\HMS\HMS\obj\Debug\HMS.csproj.GenerateResource.cache
+C:\Users\schester\Documents\VisualStudio2019\Projects\HMS\HMS\obj\Debug\HMS.csproj.CoreCompileInputs.cache
+C:\Users\schester\Documents\VisualStudio2019\Projects\HMS\HMS\obj\Debug\HMS.csproj.CopyComplete
+C:\Users\schester\Documents\VisualStudio2019\Projects\HMS\HMS\obj\Debug\HMS.exe
+C:\Users\schester\Documents\VisualStudio2019\Projects\HMS\HMS\obj\Debug\HMS.pdb
+C:\Users\schester\Documents\VisualStudio2019\Projects\HMS\HMS\obj\Debug\HMS.HomeForm.resources
+C:\Users\schester\Documents\VisualStudio2019\Projects\HMS\HMS\obj\Debug\HMS.Child_Forms.PatientRegistration.resources
+C:\Users\schester\Documents\VisualStudio2019\Projects\HMS\HMS\obj\Debug\HMS.Child_Forms.PatientInformation.resources
+C:\Users\schester\Documents\VisualStudio2019\Projects\HMS\HMS\obj\Debug\HMS.Child_Forms.AddStaff.resources
+C:\Users\schester\Documents\VisualStudio2019\Projects\HMS\HMS\obj\Debug\HMS.Child_Forms.StaffInformation.resources
