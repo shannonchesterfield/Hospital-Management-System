@@ -59,7 +59,7 @@
             // 
             this.StaffInfo_MedicalCreds.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.StaffInfo_MedicalCreds.AutoSize = true;
-            this.StaffInfo_MedicalCreds.Location = new System.Drawing.Point(45, 293);
+            this.StaffInfo_MedicalCreds.Location = new System.Drawing.Point(34, 293);
             this.StaffInfo_MedicalCreds.Name = "StaffInfo_MedicalCreds";
             this.StaffInfo_MedicalCreds.Size = new System.Drawing.Size(135, 17);
             this.StaffInfo_MedicalCreds.TabIndex = 69;
@@ -149,7 +149,7 @@
             // 
             this.StaffInfo_SearchStaffLastNameLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.StaffInfo_SearchStaffLastNameLabel.AutoSize = true;
-            this.StaffInfo_SearchStaffLastNameLabel.Location = new System.Drawing.Point(127, 60);
+            this.StaffInfo_SearchStaffLastNameLabel.Location = new System.Drawing.Point(88, 60);
             this.StaffInfo_SearchStaffLastNameLabel.Name = "StaffInfo_SearchStaffLastNameLabel";
             this.StaffInfo_SearchStaffLastNameLabel.Size = new System.Drawing.Size(178, 17);
             this.StaffInfo_SearchStaffLastNameLabel.TabIndex = 75;
@@ -178,7 +178,7 @@
             // 
             this.StaffInfo_SearchStaffFirstNameLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.StaffInfo_SearchStaffFirstNameLabel.AutoSize = true;
-            this.StaffInfo_SearchStaffFirstNameLabel.Location = new System.Drawing.Point(127, 28);
+            this.StaffInfo_SearchStaffFirstNameLabel.Location = new System.Drawing.Point(88, 28);
             this.StaffInfo_SearchStaffFirstNameLabel.Name = "StaffInfo_SearchStaffFirstNameLabel";
             this.StaffInfo_SearchStaffFirstNameLabel.Size = new System.Drawing.Size(178, 17);
             this.StaffInfo_SearchStaffFirstNameLabel.TabIndex = 72;
@@ -188,6 +188,7 @@
             // 
             this.StaffInfo_DeleteStaffBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.StaffInfo_DeleteStaffBtn.BackColor = System.Drawing.Color.Red;
+            this.StaffInfo_DeleteStaffBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.StaffInfo_DeleteStaffBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.StaffInfo_DeleteStaffBtn.ForeColor = System.Drawing.SystemColors.ControlText;
             this.StaffInfo_DeleteStaffBtn.Location = new System.Drawing.Point(483, 374);
@@ -299,12 +300,14 @@
             // StaffInfo_ResetBtn
             // 
             this.StaffInfo_ResetBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.StaffInfo_ResetBtn.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.StaffInfo_ResetBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.StaffInfo_ResetBtn.Location = new System.Drawing.Point(130, 374);
             this.StaffInfo_ResetBtn.Name = "StaffInfo_ResetBtn";
             this.StaffInfo_ResetBtn.Size = new System.Drawing.Size(219, 34);
             this.StaffInfo_ResetBtn.TabIndex = 87;
             this.StaffInfo_ResetBtn.Text = "Reset Form";
-            this.StaffInfo_ResetBtn.UseVisualStyleBackColor = true;
+            this.StaffInfo_ResetBtn.UseVisualStyleBackColor = false;
             this.StaffInfo_ResetBtn.Click += new System.EventHandler(this.StaffInfo_ResetBtn_Click);
             // 
             // StaffInformation

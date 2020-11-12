@@ -117,4 +117,26 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>Welcome to my Hospital Management System!
+
+This application digitalizes the patient intake and management for a hospital.
+
+Users are able to register new patients in the "Patient Registration" tab.
+This will keep track of identification information for a patient as well as
+the room that they are currently staying in.
+
+In the "Patient Information" tab, a user can search for patients that are currently
+in the hospital.
+
+You will be able to view staff in the "Staff Information" tab once staff
+have been added into the system. Here you can see their credentials as
+well as their contact information and specializations.
+
+Finally, inside of the "Add Staff" tab, you will be able to add new doctors
+or nurses.
+
+If you have any questions do not hesitate to shoot me an email
+at shannon.chesterfield@yahoo.com. Enjoy!</value>
+  </data>
 </root>

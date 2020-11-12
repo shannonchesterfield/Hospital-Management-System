@@ -53,12 +53,14 @@
             // PatRegistration_ResetBtn
             // 
             this.PatRegistration_ResetBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.PatRegistration_ResetBtn.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.PatRegistration_ResetBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.PatRegistration_ResetBtn.Location = new System.Drawing.Point(251, 316);
             this.PatRegistration_ResetBtn.Name = "PatRegistration_ResetBtn";
             this.PatRegistration_ResetBtn.Size = new System.Drawing.Size(124, 48);
             this.PatRegistration_ResetBtn.TabIndex = 45;
             this.PatRegistration_ResetBtn.Text = "Reset Form";
-            this.PatRegistration_ResetBtn.UseVisualStyleBackColor = true;
+            this.PatRegistration_ResetBtn.UseVisualStyleBackColor = false;
             this.PatRegistration_ResetBtn.Click += new System.EventHandler(this.PatRegistration_ResetBtn_Click);
             // 
             // PatRegistration_SubmitBtn
@@ -66,6 +68,7 @@
             this.PatRegistration_SubmitBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.PatRegistration_SubmitBtn.AutoSize = true;
             this.PatRegistration_SubmitBtn.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.PatRegistration_SubmitBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.PatRegistration_SubmitBtn.Location = new System.Drawing.Point(405, 316);
             this.PatRegistration_SubmitBtn.Name = "PatRegistration_SubmitBtn";
             this.PatRegistration_SubmitBtn.Size = new System.Drawing.Size(124, 48);
@@ -227,7 +230,7 @@
             // 
             this.AddStaff_MedicalCreds.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.AddStaff_MedicalCreds.AutoSize = true;
-            this.AddStaff_MedicalCreds.Location = new System.Drawing.Point(12, 231);
+            this.AddStaff_MedicalCreds.Location = new System.Drawing.Point(5, 231);
             this.AddStaff_MedicalCreds.Name = "AddStaff_MedicalCreds";
             this.AddStaff_MedicalCreds.Size = new System.Drawing.Size(135, 17);
             this.AddStaff_MedicalCreds.TabIndex = 51;

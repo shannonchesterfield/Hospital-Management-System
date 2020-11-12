@@ -53,8 +53,9 @@ namespace HMS
             public static Color color2 = Color.FromArgb(255,197,99);
             public static Color color3 = Color.FromArgb(43,160,181);
             public static Color color4 = Color.FromArgb(255,80,117);
-            public static Color color5 = Color.FromArgb(245,128,36);
-            
+            public static Color color5 = Color.FromArgb(175,254,252);
+            public static Color color6 = Color.FromArgb(245,128,36);
+
         }
         //Method to highlight button upon clicking
         private void ActivateButton(object senderBtn, Color color)
@@ -83,6 +84,19 @@ namespace HMS
                 CurrentChildFormLabel.Text = currentBtn.Text;
 
             }
+        }
+        //I wanted this to act like the ActivateButton method, but with a few tweaks
+        private void ActivateAboutButton(object senderBtn, Color color)
+        {
+            currentBtn = (IconButton)senderBtn;
+            currentBtn.BackColor = Color.FromArgb(50, 26, 55);
+            currentBtn.ForeColor = color;
+            currentBtn.TextAlign = ContentAlignment.MiddleCenter;
+            currentBtn.IconColor = color;
+            CurrentChildFormIcon.IconChar = currentBtn.IconChar;
+            CurrentChildFormIcon.IconColor = color;
+            CurrentChildFormLabel.Text = currentBtn.Text;
+
         }
         //Method to disable button highlighting when not active
         private void DisableButton()
@@ -185,7 +199,13 @@ namespace HMS
         {
             WindowState = FormWindowState.Minimized;
         }
-        
-        
+
+        private void AboutBtn_Click(object sender, EventArgs e)
+        {
+            DisableButton();
+            ActivateAboutButton(sender, RGBColors.color6);
+            OpenChildForm(new About());
+            
+        }
     }
 }

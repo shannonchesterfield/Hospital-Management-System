@@ -31,6 +31,7 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HomeForm));
             this.TitleBarPanel = new System.Windows.Forms.Panel();
+            this.AboutBtn = new FontAwesome.Sharp.IconButton();
             this.MinimizeBtn = new FontAwesome.Sharp.IconPictureBox();
             this.MaximizeBtn = new FontAwesome.Sharp.IconPictureBox();
             this.CloseBtn = new FontAwesome.Sharp.IconPictureBox();
@@ -69,6 +70,7 @@
             // TitleBarPanel
             // 
             this.TitleBarPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(30)))), ((int)(((byte)(75)))));
+            this.TitleBarPanel.Controls.Add(this.AboutBtn);
             this.TitleBarPanel.Controls.Add(this.MinimizeBtn);
             this.TitleBarPanel.Controls.Add(this.MaximizeBtn);
             this.TitleBarPanel.Controls.Add(this.CloseBtn);
@@ -80,6 +82,27 @@
             this.TitleBarPanel.Size = new System.Drawing.Size(837, 73);
             this.TitleBarPanel.TabIndex = 1;
             this.TitleBarPanel.MouseDown += new System.Windows.Forms.MouseEventHandler(this.TitleBarPanel_MouseDown);
+            // 
+            // AboutBtn
+            // 
+            this.AboutBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(30)))), ((int)(((byte)(75)))));
+            this.AboutBtn.FlatAppearance.BorderSize = 0;
+            this.AboutBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.AboutBtn.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.AboutBtn.ForeColor = System.Drawing.Color.White;
+            this.AboutBtn.IconChar = FontAwesome.Sharp.IconChar.QuestionCircle;
+            this.AboutBtn.IconColor = System.Drawing.Color.White;
+            this.AboutBtn.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.AboutBtn.IconSize = 48;
+            this.AboutBtn.Location = new System.Drawing.Point(540, 13);
+            this.AboutBtn.Name = "AboutBtn";
+            this.AboutBtn.Rotation = 0D;
+            this.AboutBtn.Size = new System.Drawing.Size(182, 51);
+            this.AboutBtn.TabIndex = 5;
+            this.AboutBtn.Text = "About";
+            this.AboutBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.AboutBtn.UseVisualStyleBackColor = false;
+            this.AboutBtn.Click += new System.EventHandler(this.AboutBtn_Click);
             // 
             // MinimizeBtn
             // 
@@ -429,5 +452,6 @@
         private System.Windows.Forms.Panel DatePanel;
         private System.Windows.Forms.Label DayLabel;
         private System.Windows.Forms.Label DateLabel;
+        private FontAwesome.Sharp.IconButton AboutBtn;
     }
 }

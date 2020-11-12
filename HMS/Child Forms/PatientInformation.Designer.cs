@@ -261,7 +261,7 @@
             // 
             this.PatInfo_SearchPatientFirstNameLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.PatInfo_SearchPatientFirstNameLabel.AutoSize = true;
-            this.PatInfo_SearchPatientFirstNameLabel.Location = new System.Drawing.Point(127, 29);
+            this.PatInfo_SearchPatientFirstNameLabel.Location = new System.Drawing.Point(74, 29);
             this.PatInfo_SearchPatientFirstNameLabel.Name = "PatInfo_SearchPatientFirstNameLabel";
             this.PatInfo_SearchPatientFirstNameLabel.Size = new System.Drawing.Size(193, 17);
             this.PatInfo_SearchPatientFirstNameLabel.TabIndex = 53;
@@ -298,7 +298,7 @@
             // 
             this.PatInfo_SearchPatientLastNameLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.PatInfo_SearchPatientLastNameLabel.AutoSize = true;
-            this.PatInfo_SearchPatientLastNameLabel.Location = new System.Drawing.Point(127, 61);
+            this.PatInfo_SearchPatientLastNameLabel.Location = new System.Drawing.Point(74, 61);
             this.PatInfo_SearchPatientLastNameLabel.Name = "PatInfo_SearchPatientLastNameLabel";
             this.PatInfo_SearchPatientLastNameLabel.Size = new System.Drawing.Size(193, 17);
             this.PatInfo_SearchPatientLastNameLabel.TabIndex = 58;
@@ -308,6 +308,7 @@
             // 
             this.PatInfo_DeletePatientBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.PatInfo_DeletePatientBtn.BackColor = System.Drawing.Color.Red;
+            this.PatInfo_DeletePatientBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.PatInfo_DeletePatientBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PatInfo_DeletePatientBtn.Location = new System.Drawing.Point(483, 374);
             this.PatInfo_DeletePatientBtn.Name = "PatInfo_DeletePatientBtn";
@@ -320,12 +321,14 @@
             // PatInfo_ResetBtn
             // 
             this.PatInfo_ResetBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.PatInfo_ResetBtn.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.PatInfo_ResetBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.PatInfo_ResetBtn.Location = new System.Drawing.Point(130, 374);
             this.PatInfo_ResetBtn.Name = "PatInfo_ResetBtn";
             this.PatInfo_ResetBtn.Size = new System.Drawing.Size(219, 34);
             this.PatInfo_ResetBtn.TabIndex = 61;
             this.PatInfo_ResetBtn.Text = "Reset Form";
-            this.PatInfo_ResetBtn.UseVisualStyleBackColor = true;
+            this.PatInfo_ResetBtn.UseVisualStyleBackColor = false;
             this.PatInfo_ResetBtn.Click += new System.EventHandler(this.PatInfo_ResetBtn_Click);
             // 
             // PatientInformation

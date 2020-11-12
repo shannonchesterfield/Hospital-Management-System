@@ -15,3 +15,4 @@ C:\Users\schester\Documents\VisualStudio2019\Projects\HMS\HMS\obj\Debug\HMS.Chil
 C:\Users\schester\Documents\VisualStudio2019\Projects\HMS\HMS\obj\Debug\HMS.Child_Forms.PatientInformation.resources
 C:\Users\schester\Documents\VisualStudio2019\Projects\HMS\HMS\obj\Debug\HMS.Child_Forms.AddStaff.resources
 C:\Users\schester\Documents\VisualStudio2019\Projects\HMS\HMS\obj\Debug\HMS.Child_Forms.StaffInformation.resources
+C:\Users\schester\Documents\VisualStudio2019\Projects\HMS\HMS\obj\Debug\HMS.Child_Forms.About.resources
